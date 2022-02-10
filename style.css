@@ -1,20 +1,20 @@
-body{align: center;
-        
+body{ align: center;
 }
 
-#izquierda {background:grey;
-            border-width: 5px;
-            width:40%;
-            
-                        
+img{ padding: 20px;
 }
 
-h2{margin:10px;}
+h1{ border:solid;
+
+}
+
+h2{margin:10px;
+}
 
 h3{margin-top: 1px;
 margin-bottom: 1px;
 margin-left: 15px;
 margin: 5px;
-padding: 0px;}
+padding: 0px;
+}
 
-img{padding: 20px;}

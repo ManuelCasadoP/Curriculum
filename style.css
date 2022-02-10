@@ -16,6 +16,7 @@ img{
 h1{
    border:solid;
    text-align: center;
+   size: 0px ; /* Última línea de Prueba */
 }
 
 h2{
@@ -33,6 +34,7 @@ h3{
 }
 
 li{
+  text-align: left;  
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 15px;
@@ -40,5 +42,5 @@ li{
   padding: 0px;
 }
  ul{
-     padding-left: 150px;
+     padding-left: 175px;
  }

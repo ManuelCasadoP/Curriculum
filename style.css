@@ -1,26 +1,44 @@
-body{text-align: center;
-    background-color: antiquewhite;
-    max-width: 40%;
-    min-width: 80%;
-}
-
-img{ padding: 20px;
-}
-
-h1{ border:solid;
+body{
     text-align: center;
-        
+    background-color: antiquewhite;
 }
 
-h2{margin:10px;
+div {
+    width: 500px;
+    margin: auto;
+    border: 2px solid #73AD21;
 }
 
-h3{margin-top: 1px;
-margin-bottom: 1px;
-margin-left: 15px;
-margin-right: 1px;
-padding: 0px;
+img{
+    padding: 20px;
 }
 
+h1{
+   border:solid;
+   text-align: center;
+}
 
+h2{
+   margin:10px;
+   padding: 0px;
+}
 
+h3{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 15px;
+  margin-right: 1px;
+  padding: 0px;
+  
+}
+
+li{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 15px;
+  margin-right: 1px;
+  padding: 0px;
+}
+ ul{
+     padding-left: 150px;
+ }

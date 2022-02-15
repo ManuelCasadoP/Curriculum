@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color:rgb(139, 137, 139);
+}
+
+a:link, a:visited {
+    background-color: #000305;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: rgba(9, 57, 190, 0);
+  }
+
+  h1{
+    background-color: #000305;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+      
+  }

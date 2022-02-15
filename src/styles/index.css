@@ -5,14 +5,29 @@ body{
 
 div {
     width: 500px;
+    height: 850px;
     margin: auto;
     border: 2px solid #4d4a4a;
 }
 
-nav a{
-  padding: 8px;
-  background-color: #dddddd;
+nav{
+  float:center;
 }
+
+nav a:link, a:visited {
+    background-color: #000305;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: rgba(110, 147, 247, 0);
+  }
 
 img{
     padding: 0px;
@@ -20,9 +35,14 @@ img{
 }
 
 h1{
-   border:#4d4a4a;
-   text-align: center;
-   size: 0px ; /* Última línea de Prueba */
+  
+    background-color: #000305;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+ 
 }
 
 h2{

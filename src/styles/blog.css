@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    text-align: left;
     background-color:rgb(139, 137, 139);
 }
 
@@ -13,11 +13,12 @@ a:link, a:visited {
     text-decoration: none;
   }
 
-  a:hover {
-    background-color: rgba(9, 57, 190, 0);
+  a:hover{
+    background-color: red;
+
   }
 
-  h1{
+  h1 {
     background-color: #000305;
     color: white;
     padding: 10px 10px;

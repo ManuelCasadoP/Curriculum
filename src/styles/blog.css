@@ -1,6 +1,4 @@
 body{
-    /*display: flex;
-    justify-content: center; */   
     text-align: left;
     background-color:rgb(223, 221, 221);
 }
@@ -12,7 +10,7 @@ h1 {
   margin: 10px;
   margin-bottom: 0px;
   text-align: center;
-  border-radius: 5px, 5px, 0px, 0px;
+  
 }
 
 a:link, a:visited {
@@ -35,18 +33,40 @@ a:link, a:visited {
     margin-left: 10px;
     margin-right: 10px;
     padding: 4px; 
-    display: block; 
+
   }
 
   ul{
     margin: 0px;
     padding: 0px;
-    display: inline-block;
-        
+            
   }
 
   li{
     display: inline-block;
+    border-radius: 50px;
     list-style-type: none;
     margin: 0px;
+    
+  }
+
+  section {
+    display: inline-block;
+
+  }
+
+  fieldset {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 2px;
+    border-style: double;
+    
+  }
+  fieldset p {
+    display: flex;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px;
+
   }

@@ -8,6 +8,7 @@ div {
     height: 850px;
     margin: auto;
     border: 2px solid #4d4a4a;
+    /* display: block; */
 }
 
 nav{

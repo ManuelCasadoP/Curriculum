@@ -10,10 +10,30 @@ h1 {
   margin: 10px;
   margin-bottom: 0px;
   text-align: center;
+}
+
+main{
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
   
 }
 
-a:link, a:visited {
+section.Noticia {
+  margin: 8px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+section.Enlaces {
+  margin: 8px;
+  padding: 10px;
+  max-width: 33.3%;
+}
+
+nav ul li a:link, a:visited {
     background-color: #666868;
     color: white;
     padding: 10px 10px;
@@ -23,9 +43,15 @@ a:link, a:visited {
     display: inline-block;
   }
 
-  a:hover{
-    background-color: rgb(88, 74, 74);
+  a.tresPuntos{
+    font-size: 1.5em;
+    color: #525353;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
+  nav ul li a:hover{
+    background-color: rgb(88, 74, 74);
   }
 
   nav{  
@@ -33,13 +59,11 @@ a:link, a:visited {
     margin-left: 10px;
     margin-right: 10px;
     padding: 4px; 
-
   }
 
   ul{
     margin: 0px;
     padding: 0px;
-            
   }
 
   li{
@@ -47,26 +71,8 @@ a:link, a:visited {
     border-radius: 50px;
     list-style-type: none;
     margin: 0px;
-    
   }
 
-  section {
-    display: inline-block;
+  
 
-  }
-
-  fieldset {
-    display: inline-block;
-    margin-left: 8px;
-    margin-right: 8px;
-    padding: 2px;
-    border-style: double;
-    
-  }
-  fieldset p {
-    display: flex;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding: 10px;
-
-  }
+  

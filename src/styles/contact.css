@@ -10,7 +10,6 @@ padding: 10px 10px;
 margin: 10px;
 margin-bottom: 0px;
 text-align: center;
-
 }
 
 a:link, a:visited {
@@ -25,7 +24,6 @@ a:link, a:visited {
 
 a:hover{
   background-color: rgb(88, 74, 74);
-
 }
 
 nav{  
@@ -33,13 +31,11 @@ nav{
   margin-left: 10px;
   margin-right: 10px;
   padding: 4px; 
-
 }
 
 ul{
   margin: 0px;
   padding: 0px;
-          
 }
 
 li{
@@ -47,6 +43,30 @@ li{
   border-radius: 50px;
   list-style-type: none;
   margin: 0px;
-  
 }
 
+input {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+input#boton {
+  height: 40px;
+  width: 100px;
+
+}
+
+input#nombre {
+  width: 150px;
+}
+
+input#email {
+  width: 350px;
+}
+
+textarea {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}

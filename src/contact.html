@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/blog.css">
+        <link rel="stylesheet" href="./styles/contact.css">
         <title>Contacto</title>
     </head>
     <body>
-        <h1>Página de Contacto</h1>
-
+        <header>
+            <h1>Página de Contacto</h1>
+        </header>   
+        
         <nav>
             <ul>
                 <li><a href="index.html">Curriculum</a></li>
@@ -18,6 +20,18 @@
                 
             </ul>
         </nav>
+
+        <form action="./formulario/forms.html" method="get">
+            <input id="nombre" type="text" name="nombre" placeholder="Nombre ....">
+            <br>
+            <input id="apellidos" type="text" name="apellidos" placeholder="Apellidos ....">
+            <br>
+            <input id="email" type="email" name="email" placeholder="email ....">
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Comentarios..."></textarea>
+            <br>
+            <input id="boton" type="submit" value="Enviar">
+        </form>
         
     </body>
 </html>
